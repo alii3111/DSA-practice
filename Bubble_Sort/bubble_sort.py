@@ -14,7 +14,10 @@ def bubble_sort(list):
                 sorted = False
                 list[i], list[i+1] = list[i+1], list[i]
     print(list)
-    print(steps)
+    print(f"{steps} steps.")
 list = [12,8,3,1,6,4]
+# list = [5,9,2,1,67,34,88,34]
+# list = [1,2,3,4,2]
+# list = ["mona", "dhaval", "aamir", "tina", "chang"]
 
 bubble_sort(list)
