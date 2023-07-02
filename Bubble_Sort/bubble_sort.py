@@ -13,6 +13,7 @@ def bubble_sort(list):
             if list[i] > list[i + 1]:
                 sorted = False
                 list[i], list[i+1] = list[i+1], list[i]
+        size = size - 1
     print(list)
     print(f"{steps} steps.")
 list = [12,8,3,1,6,4]
