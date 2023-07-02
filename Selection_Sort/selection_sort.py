@@ -15,7 +15,7 @@ def selection_sort(list_a):
          
         if min_value !=i:
             list_a[i], list_a[min_value]=list_a[min_value], list_a[i]
-          
+  
     print(f"{steps} steps")
     return list_a
     
