@@ -6,3 +6,6 @@ def insertion_sort(list):
         values_to_sort = list[i]
         while list[i-1] > values_to_sort and i > 0:
             list[i-1], list[i] = list[i], list[i-1]
+            i = i-1
+    return list
+print(insertion_sort([4,2,7,9,1,3]))
