@@ -4,3 +4,5 @@
 def insertion_sort(list):
     for i in range(1, len(list)):
         values_to_sort = list[i]
+        while list[i-1] > values_to_sort and i > 0:
+            list[i-1], list[i] = list[i], list[i-1]
