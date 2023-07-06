@@ -10,4 +10,5 @@ def insertion_sort(list):
     print(list)
     return list
 list_a = [4,2,7,9,1,3]
+list_a = [9,5,1,34,7,9,3]
 insertion_sort(list_a)
