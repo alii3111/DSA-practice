@@ -7,5 +7,6 @@ def insertion_sort(list):
         while list[i-1] > values_to_sort and i > 0:
             list[i-1], list[i] = list[i], list[i-1]
             i = i-1
+    print(list)
     return list
-insertion_sort()
+insertion_sort(list_a)
