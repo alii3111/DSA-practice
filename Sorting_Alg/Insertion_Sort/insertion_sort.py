@@ -8,4 +8,4 @@ def insertion_sort(list):
             list[i-1], list[i] = list[i], list[i-1]
             i = i-1
     return list
-print(insertion_sort([4,2,7,9,1,3]))
+insertion_sort()
