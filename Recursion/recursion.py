@@ -1,4 +1,7 @@
 def recursion(number):
-    print(number)
-    recursion(number - 1)
+    if number <=0:
+        print("DONE!")
+    else:
+        print(number)
+        recursion(number - 1)
 recursion(10)
