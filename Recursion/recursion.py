@@ -1,5 +1,5 @@
 def recursion(number):
-    if number <=0:
+    if number ==0:
         print("DONE!")
     else:
         print(number)
