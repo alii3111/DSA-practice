@@ -1,6 +1,6 @@
 def recursion(number):
     if number ==0:
-        print("DONE!")
+        print("DONE!!")
     else:
         print(number)
         recursion(number - 1)
